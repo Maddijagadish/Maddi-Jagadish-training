@@ -1,0 +1,91 @@
+header {
+    background: linear-gradient(to bottom right, #f2e3f4, rgb(64, 142, 158));
+    color: #f0e4e4;
+    text-align: center;
+    padding: 25px;
+    margin:0;
+}
+
+.nav-con{
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+.dropdown {
+    padding: 20px;
+    background-color: #def0ad;
+    overflow: auto;
+    text-align: center;
+}
+
+.place_visit{
+    margin: 37px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(139, 95, 95);
+    background: linear-gradient(to right,#6077ac,#f0e4e4);
+    margin: 25px;
+    padding: 20px;
+    width: 300px;
+    color: #1d1721;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+.card img {
+    width: 300px;
+    height: 200px;
+}
+
+.card:hover {
+    transform: scale(1.20)
+}
+
+.booking_form form {
+    background-color: #9cc1b37f;
+    padding: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: 2px solid #c16092;
+    margin-bottom: 30px;
+}
+
+.booking_form input {
+    
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    
+}
+.booking_form button{
+    width: 20%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(38, 34, 34);
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+p{
+    padding: 9px;
+}
+*{
+    margin: 0;
+}
