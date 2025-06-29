@@ -1,0 +1,67 @@
+1.let email=prompt("enter your mail")
+regex=/\w+@[a-zA-Z_].[a-z]{2,3}/
+if (regex.test(email)){
+    console.log("valid email")
+}else{
+    console.log("Invaild email")
+}
+
+2.let number=prompt("enter your num")
+regex=/^\d+$/
+if (regex.test(number)){
+    console.log("valid num")
+}else{
+    console.log("Invaild num")
+}
+
+3.let postal_code=prompt("enter your postal code")
+regex=/^\d{5}$/
+if (regex.test(postal_code)){
+    console.log("valid code")
+}else{
+    console.log("Invaild code")
+}
+
+4.let contact_number=prompt("enter your num")
+regex=/[6-9]\d{9}/
+if (regex.test(contact_number)){
+    console.log("valid contact number")
+}else{
+    console.log("Invaild contact number")
+}
+
+
+5.
+let str=prompt("enter your str")
+regex=/[a-zA-Z0-9]+/
+if (regex.test(str)){
+    console.log("valid string")
+}else{
+    console.log("Invaild string")
+}
+
+6.let str="hello world"
+regex=/^Hello/i
+if (regex.test(str)){
+    console.log("valid string")
+}else{
+    console.log("Invaild string")
+}
+
+7.let str=prompt("enter your str")
+regex=/.com$/
+if (regex.test(str)){
+    console.log("valid string")
+}else{
+    console.log("Invaild string")
+}
+
+8.const sentence = "Krishna and Radha";
+const capitalWords = sentence.match(/\b[A-Z][a-zA-Z]*\b/g);
+
+console.log(capitalWords); 
+
+9.let str="     goood       boy     is    jagadish"
+regex=/^\s+|\s+/g
+console.log(str.replace(regex," "))
+
