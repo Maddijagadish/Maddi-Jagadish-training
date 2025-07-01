@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechConfig Event</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">TechConfig</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#About">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Speakers">Speakers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Register">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-dark text-white p-5 ">
+  <div class="container">
+    <h1 class="display-4">Join TechConfig</h1>
+    <p class="lead">Explore the future world of presenters and global innovators</p>
+    <a href="#Register" class="btn btn-info">Register now</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="About" class="bg-light py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4">
+        <h2>About the Event</h2>
+        <p>TechConfig brings together leading speakers and tech innovators from across the globe to share their insights and inspire the next generation.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="https://bhubaneswaroffice.com/wp-content/uploads/2022/06/JU9A9495.jpg" class="img-fluid rounded" alt="Event image" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Speakers Section -->
+<section id="Speakers" class="bg-white py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Featured Speakers</h2>
+    <div class="row g-4">
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.c_iJc1_NauIpL6N7-p-EwwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Speaker 1" />
+          <div class="card-body">
+            <h5 class="card-title">Cathie Wood</h5>
+            <p class="card-text">CEO of ARK Invest, known for bold predictions on disruptive innovation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Nordiske_Mediedager_%285713109710%29.jpg/500px-Nordiske_Mediedager_%285713109710%29.jpg" class="card-img-top" alt="Speaker 2" />
+          <div class="card-body">
+            <h5 class="card-title">Gerd Leonhard</h5>
+            <p class="card-text">Futurist and humanist focused on digital transformation and exponential technologies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://cyberducks.it/images/cybersecurity/Kevin-Mitnick.webp" class="card-img-top" alt="Speaker 3" />
+          <div class="card-body">
+            <h5 class="card-title">Kevin Mitnick</h5>
+            <p class="card-text">Once the world’s most wanted hacker, later a top cybersecurity consultant.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Register Section -->
+<section id="Register" class="bg-primary bg-opacity-10 py-5">
+  <div class="container">
+    <h2 class="mb-4">Register Now</h2>
+    <div class="p-4 bg-white rounded shadow">
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="First name" />
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last name" />
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="inputEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

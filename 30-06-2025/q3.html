@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <h1 id="sectionheadingId">section 1</h1>
+        <div id="paragraphId">This is section 1</div>
+        <h1 id="sectionheadingId">section 2</h1>
+        <div id="paragraphId">This is section 2</div>
+
+        <script>
+            $(document).ready(function(){
+                 $("#sectionheadingId").click(function(){
+                $(this).next("#paragraphId").slideToggle();
+                $("#paragraphId").not($(this).next()).slideUp()
+            })
+            })
+        </script>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+        #topBtn{
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            padding: 10px;
+            background: #333;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div style="height:1500px">scroll down to see button...    </div>
+    <div id="topBtn">button</div> -->
+
+    <input type="text" Id="nameInput">
+    <p> hello, <span Id="preview"></span></p>
+    <script>
+        // $(window).scroll(function(){
+        //     if ($(this).scrollTop()>100){
+        //         $("#topBtn").fadeIn()
+        //     }
+        //     else{
+        //         $("#topBtn").fadeOut()
+        //     }
+
+        // })
+
+
+        //q7
+        $("#nameInput").on("input",function(){
+            $("#preview").text($("#nameInput").val())
+        })
+    </script>
+    
+</body>
+</html>

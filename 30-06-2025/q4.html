@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+        #imageId{
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://th.bing.com/th/id/R.9bcf216ba66d755d01307dd6e62e58b4?rik=Jrd94WgAuN8Ohw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f7%2f1%2f460702.jpg&ehk=Nv7Yrbgxp8%2feoSXfYXHknPBkG%2bGt7Ytdwg%2bl0nYhpi0%3d&risl=&pid=ImgRaw&r=0" alt=""
+    id="imageId">
+    <script>
+        $(document).ready(function(){
+         $("#imageId").hover(function(){
+            $(this).animate(
+                width : '+=50px',
+                heigth : "+=50px")
+        });
+       });
+
+    </script>
+
+    
+</body>
+</html>
