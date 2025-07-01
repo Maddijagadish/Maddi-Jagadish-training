@@ -1,1 +1,1 @@
-https://maddijagadish.github.io/Maddi-Jagadish-training-/
+https://singular-entremet-22966b.netlify.app/
